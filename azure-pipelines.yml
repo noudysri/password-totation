@@ -9,6 +9,6 @@ pr: none
 variables:
 - group: Dev-varaible-Group
 steps:
-  - script: echo $(myname)
+  - script: echo $(secretname)
 
  
