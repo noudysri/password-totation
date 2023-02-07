@@ -8,8 +8,6 @@ pr: none
 
 variables:
 - group: Dev-varaible-Group
-- name: display my name
-  value: $(variables.myname)
 steps:
   - script: echo $(myname)
 
